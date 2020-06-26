@@ -1,0 +1,165 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+} 
+
+body{
+    background-color: #FFB6C1;
+    background-size: 100vw auto;
+    height: 1350px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+    position: fixed;
+    /* Não haverá aquele espaço entre o menu e o inicio da pagina*/
+    top: 0;
+    width: 100vw;
+    height: 35px;
+    font-size: 22px;
+    background-color:black; 
+}
+
+.menu ul{
+    /*tira de lista e coloca um do laod do outro*/
+    display: flex;
+    /*separa a distância entre as ul - li*/
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+main{
+    margin-top: 35px;
+}
+
+table{
+    width: 100%;
+    height: 90%;
+    border-collapse: collapse;
+}
+
+.corpo{
+    padding: 4vw;
+    height: 496px;
+}
+
+.main li{
+    list-style-type: disc;
+    font-size: 25px;
+}
+
+tr{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+    border-style: solid;
+    text-align: center;
+}
+
+.titulo1{
+    font-size: 60px;
+    /*texto em negrito*/
+    font-weight: bold;
+}
+
+.subtitulo1{
+    font-style: oblique;
+}
+
+.coluna1{
+    width: 28%;
+    text-align: center;
+}
+
+.left{
+    text-align: center;
+}
+
+.coluna1 img{
+    width:63%;
+    /*arredondar as bordas da foto*/
+    border-radius: 15px;
+}
+
+.coluna1 p, h1{
+    color: black;
+}
+
+.coluna2{
+    background-size: 100vw auto;
+}
+
+.coluna2 img{
+    width: 140px;
+}
+
+.informacoesmenu{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#teste{
+    margin-top: 35px;
+}
+
+.informacoesmenu td{
+    text-align: left;
+}
+
+.informacoesmenu li{
+    margin-left: auto;
+    font-size: 18px;
+}
+
+dl dt{
+    font-size: 31px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color: #191970;
+}
+
+.wpp img{
+    width: 30px;
+}
+
+.gmail img{
+    width: 30px;
+}
+
+.linkedin img{
+    width: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.menu a{
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
