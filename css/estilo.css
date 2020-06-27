@@ -6,10 +6,10 @@
 body{
     background-color: #FFB6C1;
     background-size: 100vw auto;
-    height: 1350px;
     font-family: 'Open Sans', sans-serif;
 }
 
+/*---------- CONFIGURAÇÕES MENU -----------*/
 .menu{
     position: fixed;
     /* Não haverá aquele espaço entre o menu e o inicio da pagina*/
@@ -18,6 +18,10 @@ body{
     height: 35px;
     font-size: 22px;
     background-color:black; 
+}
+
+#menuinicial{
+    padding-top: 08px;
 }
 
 .menu ul{
@@ -31,8 +35,33 @@ body{
     list-style: none;
 }
 
+.menu a{
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Balsamiq Sans', cursive;
+    text-decoration: none;
+}
+
+.menu a:visited{
+    color: pink;
+}
+
+/*---------- CONFIGURAÇÕES CORPO -----------*/
+
 main{
     margin-top: 35px;
+}
+
+.corpo{
+    /*Espaço entre a borda e p conteúdo*/
+    padding-top: 35px;
+    /*Espaço esquerdo entre a borda e conteúdo*/
+    padding-left: 4vw;
+    /*Espaço esquerdo entre a borda e conteúdo*/
+    padding-right: 4vw;
+    /*Tamanho  vertical do corpo*/
+    height: 496px;
 }
 
 table{
@@ -41,42 +70,18 @@ table{
     border-collapse: collapse;
 }
 
-.corpo{
-    padding: 4vw;
-    height: 496px;
-}
-
-.main li{
-    list-style-type: disc;
-    font-size: 25px;
-}
-
-tr{
+table tr{
     width: 100%;
     height: 100%;
 }
 
-td{
+table td{
     border-style: solid;
     text-align: center;
 }
 
-.titulo1{
-    font-size: 60px;
-    /*texto em negrito*/
-    font-weight: bold;
-}
-
-.subtitulo1{
-    font-style: oblique;
-}
-
 .coluna1{
     width: 28%;
-    text-align: center;
-}
-
-.left{
     text-align: center;
 }
 
@@ -94,43 +99,56 @@ td{
     background-size: 100vw auto;
 }
 
+.titulo1{
+    font-size: 60px;
+    /*texto em negrito*/
+    font-weight: bold;
+}
+
+.subtitulo1{
+    font-style: oblique;
+}
+
 .coluna2 img{
     width: 140px;
 }
 
-.informacoesmenu{
+.informacoesportfolio{
     width: 92%;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 4vw;
+    padding-right: 4vw;
 }
 
-#teste{
-    margin-top: 35px;
-}
-
-.informacoesmenu td{
-    text-align: left;
-}
-
-.informacoesmenu li{
-    margin-left: auto;
-    font-size: 18px;
-}
-
-dl dt{
+.informacoesportfolio dt{
+    padding-top: 4vw;
     font-size: 31px;
     font-weight: bold;
     font-style: italic;
     font-family: 'Balsamiq Sans', cursive;
 }
 
-a:link {
-    text-decoration: none;
-    color: black;
+.informacoesportfolio li{
+    margin-left: auto;
+    font-size: 18px;
 }
 
-a:visited{
-    color: #191970;
+.informacoesportfolio a{
+    text-decoration: none;
+    color: 	#000080;
+}
+
+/*---------- CONFIGURAÇÕES RODAPE -----------*/
+.rodape{
+    text-align: center;
+}
+
+.rodape a:link {
+    text-decoration: none;
+    color: #8B0000;
+}
+
+.rodape a:visited{
+    color: black;
 }
 
 .wpp img{
@@ -146,20 +164,12 @@ a:visited{
 }
 
 .box{
+    /*Dispoe uma imagem do lado da outra*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer{
-    text-align: center;
-}
 
-.menu a{
-    color:white;
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'Balsamiq Sans', cursive;
-}
 
 
