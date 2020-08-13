@@ -15,8 +15,8 @@ body{
     /* Não haverá aquele espaço entre o menu e o inicio da pagina*/
     top: 0;
     width: 100vw;
-    height: 35px;
-    font-size: 22px;
+    height: 40px;
+    font-size: 25px;
     background-color:black; 
 }
 
@@ -39,12 +39,12 @@ body{
     color:white;
     font-weight: bold;
     font-style: italic;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans', cursive; 
     text-decoration: none;
 }
 
 .menu a:visited{
-    color: pink;
+    color: #FFC0CB;
 }
 
 /*---------- CONFIGURAÇÕES CORPO -----------*/
@@ -61,7 +61,7 @@ main{
     /*Espaço esquerdo entre a borda e conteúdo*/
     padding-right: 4vw;
     /*Tamanho  vertical do corpo*/
-    height: 496px;
+    height: 830px; 
 }
 
 table{
@@ -91,6 +91,10 @@ table td{
     border-radius: 15px;
 }
 
+.hbsis img{
+    width: 100px;
+
+}
 .coluna1 p, h1{
     color: black;
 }
@@ -110,7 +114,7 @@ table td{
 }
 
 .coluna2 img{
-    width: 140px;
+    width: 200px;
 }
 
 .informacoesportfolio{
@@ -127,15 +131,25 @@ table td{
     font-family: 'Balsamiq Sans', cursive;
 }
 
+.informacoesportfolio p{
+    text-align: justify;
+    margin-left: 5vw;
+    font-size: 18px;
+    
+}
+
 .informacoesportfolio li{
+    list-style-type: disc;
     margin-left: auto;
     font-size: 18px;
+
 }
 
 .informacoesportfolio a{
     text-decoration: none;
-    color: 	#000080;
+    color: #00008B;
 }
+
 
 /*---------- CONFIGURAÇÕES RODAPE -----------*/
 .rodape{
